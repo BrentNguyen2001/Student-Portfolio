@@ -1,0 +1,37 @@
+.resume-container {
+    display: flex;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.resume-image {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.resume-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 50%
+}
+
+.resume-details {
+    flex: 3;
+    font-weight: 600;
+    font-size:  17px; 
+}
+
+.section-title {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-right: 400px;
+    
+}

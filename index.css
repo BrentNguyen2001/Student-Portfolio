@@ -1,0 +1,204 @@
+/* General body styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #2a3f5f;
+    color: #ffffff;
+}
+
+/* Header Container styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a3f5f;
+    padding: 20px;
+    height:100%;
+    
+}
+/* Logo container styles */
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+/* Logo image styles */
+.header-logo img {
+    max-height: 6vh;
+    vertical-align: middle;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+/* Linkedin Logo container styles */
+.header-linkedin-logo {
+    margin-left: auto;
+    align-items: center;
+}
+
+/*Linkedin Logo Image Style*/
+
+.header-linkedin-logo img {
+    max-height: 6vh;
+    vertical-align: middle;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+
+/* Navigation container styles */
+.header-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* Navigation list styles */
+.header-nav nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 60px;
+    font-weight: 600;
+    font-size: x-large;
+}
+/* Navigation link styles */
+.header-nav nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+/* Navigation link hover styles */
+.header-nav nav ul li a:hover {
+    color: gray;
+}
+
+/* Main title container styles */
+.main-title {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+/* Main intro image styles */
+.Brent-img img {
+    width: 600px;
+    margin: 50px;
+    border-radius: 60px;
+}
+/* Main intro text container style */
+.main-intro {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+/* Main intro heading styles */
+.main-intro h1, .main-intro p {
+    font-size: 3em;
+}
+/* Main intro paragraph styles */
+.main-intro p {
+    font-size: 1.3rem;
+}
+/* "Contact Me" button styles */
+.main-gray-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    transition: background-color 0.3s ease;
+}
+/* "Contact Me" button hover styles */
+.main-gray-button:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+/* About and affiliations section styles */
+.index-about, .affiliations {
+    display: block;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    color: black
+}
+/* Affiliations image container style */
+.affiliation-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+/* affiliation image styles*/
+.affiliation img {
+    height: 15rem;
+    object-fit: scale-down;
+    background-color: white;
+}
+
+/* Footer conatiner styles */
+.footer-main {
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+/* Footer link styles */
+.footer-main a,
+.footer-main ul li,
+.footer-main p {
+    transition: color 0.3s ease;
+}
+/* Footer link hover styles */
+.footer-main a:hover,
+.footer-main ul li:hover,
+.footer-main p:hover {
+    color: gray;
+}
+/* Footer heading styles */
+.footer-main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Footer content container styles */
+.footer-main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+}
+/* Footer test, navigation, and contact info container styles */
+.footer-text, .footer-nav, .footer-contact-info {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Footer navigation and contact info list styles */
+.footer-nav ul, .footer-contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* Footer navigation link styles */
+.footer-nav ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color:#ffffff;
+}
+/* Footer contact info list item styles */
+.footer-contact-info ul li {
+    padding: 0.5rem;
+}

@@ -1,0 +1,45 @@
+ h1 {
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 0; 
+    font-size: xx-large;
+
+}
+
+h2{
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 0; 
+}
+
+.Project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.Project-container > div {
+    flex: 1 1 calc(33.333% - 20px); 
+    display: flex;
+    flex-direction: column;
+}
+
+.Project-container img {
+    width: 80%;  
+    height: auto; 
+    border-radius: 60px;
+    margin-left:  70px;
+}
+
+.Project-container ul {
+    padding-left: 20px;
+}
+
+.Project-container ul li {
+    padding: 5px 0;
+}
+
+.main-gray-button {
+    margin-top: 30px;
+}

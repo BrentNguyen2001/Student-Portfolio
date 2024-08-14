@@ -1,0 +1,33 @@
+.About-Me{
+    margin-bottom: 0.5em;
+    border-bottom: 5px solid white;
+    
+}
+.About-Section {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About-Me-Description{
+    flex: 2;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.About-Me-Description p{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.About-Me-Image{
+    flex:1;
+    padding-left: 20px;
+    margin-top: 60px;
+}
+
+.About-Me-Image img{
+    width: 90%;
+    height:auto;
+    border-radius: 60px;
+}
